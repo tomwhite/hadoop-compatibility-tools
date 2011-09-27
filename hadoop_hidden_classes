@@ -1,0 +1,10 @@
+org.apache.hadoop.fs.s3native.NativeS3FileSystem
+org.apache.hadoop.mapred.join.ComposableRecordReader
+org.apache.hadoop.mapred.join.CompositeRecordReader
+org.apache.hadoop.mapred.join.InnerJoinRecordReader
+org.apache.hadoop.mapred.join.JoinRecordReader
+org.apache.hadoop.mapred.join.MultiFilterRecordReader
+org.apache.hadoop.mapred.join.OuterJoinRecordReader
+org.apache.hadoop.mapred.join.OverrideRecordReader
+org.apache.hadoop.mapred.join.WrappedRecordReader
+org.apache.hadoop.mapred.JobHistoryServer
