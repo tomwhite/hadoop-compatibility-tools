@@ -1,7 +1,7 @@
-BASELINE_VERSION=0.20.204.0
+BASELINE_VERSION=0.20.205.0
 NEW_VERSION=0.24.0-SNAPSHOT
 
-cat hadoop_private_elements hadoop_hidden_classes > excludes
+cat hadoop_private_elements hadoop_hidden_classes <(cat hadoop_false_positives | grep -v '#') > excludes
 
 ./apicheck.sh \
   --project=hadoop \
